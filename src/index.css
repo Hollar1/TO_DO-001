@@ -1,0 +1,208 @@
+.main-container {
+  background-color: rgb(245, 232, 160);
+  width: 900px;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px 0px;
+  border: brown solid 3px;
+  border-radius: 30px;
+}
+.header-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(213, 188, 49);
+  border-bottom: solid brown 3px;
+}
+.header-h1 {
+  font-size: 50px;
+}
+
+.input-div {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.task-input {
+  width: 500px;
+  height: 45px;
+  font-size: 25px;
+  padding-inline-start: 10px;
+  outline: none;
+  border: solid rgb(176, 89, 89) 3px;
+  cursor: pointer;
+  text-transform:capitalize;
+}
+.task-input:hover {
+  background-color: rgb(248, 237, 237);
+}
+.date-input {
+  height: 46px;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  border: solid rgb(176, 89, 89) 3px;
+  cursor: pointer;
+}
+.date-input:hover {
+  background-color: rgb(248, 237, 237);
+}
+.time-input {
+  height: 46px;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  border: solid rgb(176, 89, 89) 3px;
+}
+.time-input:hover {
+  background-color: rgb(248, 237, 237);
+}
+
+.add-btn {
+  background-color: rgb(233, 176, 102);
+  height: 55px;
+  font-size: 30px;
+  font-weight: 600;
+  width: 150px;
+  margin-left: 5px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  border: solid rgb(176, 89, 89) 3px;
+}
+
+.add-btn:hover {
+  background-color: rgb(238, 212, 212);
+  color: black;
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+  margin: auto;
+}
+.table,
+tbody,
+th,
+tr,
+td {
+  border: solid brown 3px;
+}
+.th-task {
+  width: 400px;
+}
+th {
+  font-size: 30px;
+  background-color: rgb(244, 207, 207);
+}
+
+.td-edit-icon {
+  width: 40px;
+  color: green;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.td-edit-icon:hover {
+  background-color: rgb(238, 212, 212);
+  color: black;}
+
+.td-delete-icon {
+  width: 40px;
+  color: rgb(246, 90, 90);
+  text-align: center;
+  padding-top: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.td-delete-icon:hover {
+  background-color: rgb(238, 212, 212);
+  color: black;}
+
+.td-tasks {
+  font-size: 35px;
+  padding: 0px 10px;
+  display: flex;
+  border: none;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+  text-transform:capitalize;
+}
+.check-box {
+  transform: scale(2);
+  cursor: pointer;
+
+}
+
+.td-date,
+.td-time {
+  text-align: center;
+  font-size: 25px;
+}
+.isCompleted {
+  text-decoration: line-through;
+  color: rgb(111, 108, 108);
+}
+.done-icon {
+  color: rgb(105, 165, 105);
+  font-size: 20px;
+}
+
+.total-tasks-completed-tasks{
+  /* background-color: rgb(147, 124, 95); */
+  width: 794px;
+  height: 40px;
+  margin: auto;
+  border: 3px solid brown;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.calculate-number{
+  width: auto;
+  height: auto;
+  border: solid 3px rgb(106, 4, 4) ;
+  padding:0px 10px;
+  border-radius: 10px;
+}
+
+.modal{
+  width: 350px;
+  height: 45px;
+  background-color: rgb(165, 164, 163);
+  margin: auto;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  align-items: center;
+  font-size: 30px;
+  color:black;
+  margin-bottom: 30px;
+  margin-top: -100px;
+  position: relative; 
+  font-weight: bold;
+}
+
+.modal-close-div{
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.modal-close-div:hover{
+  color: brown;
+
+}
